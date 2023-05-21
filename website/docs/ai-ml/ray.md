@@ -90,7 +90,7 @@ Use the provided helper script `install.sh` to run the terraform init and apply 
 
 
 ```bash
-./install .sh
+./install.sh
 ```
 
 </CollapsibleContent>
@@ -120,7 +120,7 @@ ip-10-1-40-196.ec2.internal   Ready    <none>   10h   v1.24.9-eks-49d8fe8
 Next, lets verify all the pods are running.
 
 ```bash
-kubectl get pods -n kuberay-operator
+kubectl get pods -A
 ```
 :::info
 ```bash
